@@ -1,0 +1,74 @@
+.ContactListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+.ContactContainer {
+    border-radius: 8px;
+    transition: transform .2s;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ContactContainer:hover {
+    transform: scale(1.02);
+}
+
+.Contact {
+    display: flex;
+    gap: 1em;
+    /* position: relative; */
+}
+
+.wpImg {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 10px;
+}
+.wpImg img {
+    height: 25px;
+    width: 25px;
+}
+
+.ContactImage {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ContactImage img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.ContactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.AddContactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 2em;
+}
+
+.CardAction {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
